@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>Jun.net</title>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KumeJunのポートフォリオサイト">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!-- JS -->
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/vendor/jquery-3.4.1.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- FONT -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- 文字サイズを大きくするために見出しタグを使用するのは控えましょう！ -->
+    <h2><a href="index.html">HOMEへ</a></h2>
+    <h1>お問い合わせ</h1>
+
+    <form action="index.html" method="POST">
+        <div class="field">
+            <label for="name">お名前：</label>
+            <input type="text" name="name" class="form-place" placeholder="お名前">
+        </div>
+        <div class="field">
+            <label for="mail">メールアドレス：</label>
+            <input type="email" name="mail" class="form-place" placeholder="example@example.com">
+        </div>
+        <div class="field">
+            <label for="content">お問い合わせ内容：</label>
+            <textarea name="content" cols="30" rows="10" class="form-place" placeholder="本文をお書きください。"></textarea>
+        </div>
+        <div class="button-submit">
+            <button type="submit" class="button">送信する(実はただのボタンで送信などできない)</button>
+        </div>
+    </form>
+</body>
