@@ -31,22 +31,19 @@
 <body>
     <div class="top">
         <header class="flex">
-            <!-- コーポレートサイト同様h1タグの使用は一回に抑えましょう！ -->
-            <h1><a href="index.html">Jun Kume</a></h1>
+            <h1><a href="index.html">Kume Jun</a></h1>
             <nav class="header-nav">
                 <ul class="nav-box flex">
                     <li><a href="#about">About</a></li>
                     <li><a href="#works">Works</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <main>
-        <h1 class="catch fadein">Hello! Welcome To My Online Portfolio.<br>
-        I want to fulfill your wish.</h1>
+    <main class="main">
+        <h1 class="project-name">Kume Jun's Portfolio </h1>
     </main>
 
     <div id="hamburger">
@@ -56,13 +53,12 @@
     </div>
 
     <nav class="menu-content">
-        <p class="menu-title">Jun Kume</p>
+        <p class="menu-title">Kume Jun</p>
         
         <ul class="menu-inner">
             <li><a href="#about">About</a></li>
             <li><a href="#works">Works</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -75,117 +71,46 @@
             <div class="profile">
                 <h1>About Me</h1>
                 <div class="profile-body">
-                    <p>久米　淳 (Jun Kume)</p>
-                    <p>精進なう</p>
+                    <p>久米　淳</p>
+                    <p>精進なう<br>TOEIC590, 基本情報技術者, 統計検定2級持ってます</p>
 
-                    <a href="https://twitter.com/kujukasu" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+                    <a href="https://twitter.com/astrfo" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
                     <a href="https://github.com/astrfo" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-                    <a href="https://www.instagram.com/enter05740/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                    <a href="https://www.instagram.com/rsrl1970/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
 
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="works">
-        <h1>Works</h1>
-        <!-- 全体のスタイルにjustyfi-content: spase-betweenがかかっているため
-        中間に大きなスペースができてしまっています。
-        （すみませんこちらのミスです...）
-        真ん中のスペースは小さい方がきれいに見えると思います！ -->
-        <!-- <div class="flex wrap fadein">
-            <div class="item fadein">
-                <img src="img/company.jpg" alt="company">
-            </div>
-
-            <div class="item fadein">
-                <img src="img/company.jpg" alt="company">
-            </div>
-
-            <div class="item fadein">
-                <img src="img/company.jpg" alt="company">
-            </div>
-
-            <div class="item fadein">
-                <img src="img/company.jpg" alt="company">
-            </div>
-        </div> -->
-        <div class="middle fadein">
-            <a href="works.html" class="works-button">View More →</a>
+    <div id="works" class="container">
+        <div class="container">
+            <h1>Works</h1>
+        </div>
+        <div class="paper">
+            <a href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_2C4GS204/_article/-char/ja/">JSAI2022 確率的満足化における最適な基準値の動的推定</a>
         </div>
     </div>
 
     <div id="skills">
-        <h1>Skills</h1>
-        <!-- このタグの文字をもう少しみやすくすると良いかと思います！
-        または、
-        プログラミング言語が５つきれいにならんでいますがそのしたのデザイン技術の   
-        iconの間が大きく見えているため少し違和感があると思います。
-        プログラミング言語とデザイン技術を分けず
-        全てをまとめて２個ずつ４列に表示させるなどやってみてください！
-        ユーザーが一番見やすいことが一番大事です！-->
-        <h2>Programming Language</h2>
-        <div class="flex wrap fadein">
-            <!-- <div class="item">
-                <img src="img/html5.jpg" alt="html" width="200px">
-                <p>HTML5</p>
-                <p>2020.2~</p>
+        <div class="container">
+            <h1>Skills</h1>
+            <h2>プログラミング言語</h2>
+            <div class="flex wrap fadein">
+                <div class="item">
+                    <img src="img/c-language.jpg" alt="c-language" width="200px">
+                    <p>C</p>
+                </div>
+                <div class="item">
+                    <img src="img/python.jpg" alt="python" width="200px">
+                    <p>Python</p>
+                </div>
             </div>
-            <div class="item">
-                <img src="img/css3.jpg" alt="css" width="200px">
-                <p>CSS3</p>
-                <p>2020.2~</p>
-            </div> -->
-            <div class="item">
-                <img src="img/javascript.jpg" alt="javascript" width="200px">
-                <p>JavaScript</p>
-                <!-- <p>2020.2~</p> -->
-            </div>
-            <div class="item">
-                <img src="img/c-language.jpg" alt="c-language" width="200px">
-                <p>C</p>
-                <!-- <p>2019.4~</p> -->
-            </div>
-            <div class="item">
-                <img src="img/python.jpg" alt="python" width="200px">
-                <p>Python</p>
-                <!-- <p>2019.4~</p> -->
-            </div>
-        </div>
-
-        <!-- こちらも同様に文字をもう少しみやすくすると良いかと思います！ -->
-        <h2>Design Tool</h2>
-        <div class="flex wrap fadein">
-            <div class="item">
-                <img src="img/illustrator.jpg" alt="illustrator" width="200px">
-                <p>Illustrator</p>
-                <!-- <p>2020.2~</p> -->
-            </div>
-            <div class="item">
-                <img src="img/photoshop.jpg" alt="photoshop" width="200px">
-                <p>Photoshop</p>
-                <!-- <p>2020.2~</p> -->
-            </div>
-            <div class="item">
-                <img src="img/xd.jpg" alt="xd" width="200px">
-                <p>XD</p>
-                <!-- <p>2020.2~</p> -->
-            </div>
-        </div>
-    </div>
-
-    <div id="contact" class="fadein">
-        <h1>Contact</h1>
-        <h2>お問い合わせ</h2>
-        <p>お仕事のご相談やご依頼など、お気軽にご連絡ください！</p>
-        
-        <div class="middle">
-            <a href="contact.html" class="contact-button">お問い合わせページへ</a>
         </div>
     </div>
 
     <footer>
-        <p><small>&copy; 2020 kujukasu. All Rights Reserved.</small></p>
+        <p><small>&copy; 2022 Kume Jun. All Rights Reserved.</small></p>
     </footer>
 </body>
 </html>
